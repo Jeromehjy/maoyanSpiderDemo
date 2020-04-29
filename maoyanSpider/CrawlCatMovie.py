@@ -1,13 +1,9 @@
 import requests
 import re
-import json
-import os
 from lxml import etree
 from fontTools.ttLib import TTFont
 from woff2otf import convert
 from fontOCR import font_convert
-import io
-import sys
 
 
 class CrawlCat:
